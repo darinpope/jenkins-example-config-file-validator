@@ -1,0 +1,1 @@
+# jenkins-example-config-file-validator
