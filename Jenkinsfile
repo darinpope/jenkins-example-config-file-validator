@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Exclude directories') {
       steps {
-        sh 'validator --exlude-dirs org1/project02 org1 || true'
+        sh 'validator --exclude-dirs org1/project02 org1 || true'
       }
     }
     stage('Exclude file types') {
